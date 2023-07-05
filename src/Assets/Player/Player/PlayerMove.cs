@@ -24,7 +24,7 @@ namespace Player.Player
         private void Update()
         {
 
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) && player.state != PlayerState.InAir)
             {
                 jumpTime += jumpAccumulationSpeed * Time.deltaTime;
 
@@ -40,7 +40,7 @@ namespace Player.Player
                 player.state = PlayerState.Preparing;
             }
 
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetKeyUp(KeyCode.Space) && player.state == PlayerState.Preparing)
             {
                 Jump();
                 
