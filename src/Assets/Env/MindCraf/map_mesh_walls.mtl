@@ -1,0 +1,67 @@
+
+newmtl minecraft_block-stripped_spruce_log
+Kd 0.4535 0.3528 0.2057
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/stripped_spruce_log.png
+
+newmtl minecraft_block-dirt
+Kd 0.5265 0.3776 0.2627
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/dirt.png
+
+newmtl minecraft_block-gold_block
+Kd 0.9663 0.8169 0.2417
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/gold_block.png
+
+newmtl minecraft_block-stripped_spruce_log_top
+Kd 0.4152 0.3147 0.1826
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/stripped_spruce_log_top.png
+
+newmtl minecraft_block-birch_planks
+Kd 0.7548 0.6874 0.4755
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/birch_planks.png
+
+newmtl minecraft_block-sandstone
+Kd 0.8488 0.7971 0.6111
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/sandstone.png
+
+newmtl minecraft_block-sandstone_bottom
+Kd 0.8458 0.7924 0.6047
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/sandstone_bottom.png
+
+newmtl minecraft_block-lantern
+Kd 0.4181 0.3624 0.3324
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/lantern.png
+map_d tex/minecraft/block/lantern.png
+
+newmtl minecraft_block-sandstone_top
+Kd 0.8778 0.8400 0.6680
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/sandstone_top.png
+
+newmtl minecraft_block-spruce_trapdoor
+Kd 0.4066 0.3100 0.1877
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/spruce_trapdoor.png
+
+newmtl minecraft_block-chain
+Kd 0.2015 0.2272 0.2917
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/chain.png
+map_d tex/minecraft/block/chain.png
+
+newmtl minecraft_block-red_wool
+Kd 0.6313 0.1542 0.1358
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/red_wool.png
+
+newmtl minecraft_block-spruce_planks
+Kd 0.4507 0.3327 0.1904
+Ks 0.0000 0.0000 0.0000
+map_Kd tex/minecraft/block/spruce_planks.png
