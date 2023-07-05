@@ -29,6 +29,12 @@ namespace Player.Camera
                 myTransform.right,
                 -Input.GetAxis("Mouse Y") * sens
             );
+
+            var scroll = Input.mouseScrollDelta.y;
+
+            myTransform.position += myTransform.forward * scroll;
+            
+            
         }
     }
 }
