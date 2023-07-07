@@ -19,6 +19,12 @@ namespace Player.Player
         private void Update()
         {
             _frameBeforeSpeed = playerBody.velocity;
+            
+            // In case collision enter is not registered
+            if (_frameBeforeSpeed.y == 0 && playerBody.velocity.y == 0 && player.state == PlayerState.InAir)
+            {
+                SetPlayerState(ColliderOrientation.Floor, null);
+            }
         }
         
         private void OnCollisionEnter(Collision other)
@@ -27,10 +33,15 @@ namespace Player.Player
 
             var orientation = GetDebugOrientation(other.contacts);
 
+            SetPlayerState(orientation, other);
+        }
+
+        private void SetPlayerState(ColliderOrientation orientation, Collision other)
+        {
             switch (orientation)
             {
                 case ColliderOrientation.Floor:
-                    if (1 << other.gameObject.layer != groundLayer || player.state == PlayerState.Preparing) return;
+                    if ((other is not null) && 1 << other.gameObject.layer != groundLayer || player.state == PlayerState.Preparing) return;
                     player.state = PlayerState.Grounded;
                     player.InvokeGround();
                     playerBody.velocity = Vector3.zero;

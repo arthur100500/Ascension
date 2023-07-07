@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3752393331138472099, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3752393331138472101, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -241,15 +245,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3752393331138472102, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.68
+      value: 12.97
       objectReference: {fileID: 0}
     - target: {fileID: 3752393331138472102, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -58.75
+      value: -58.941
       objectReference: {fileID: 0}
     - target: {fileID: 3752393331138472102, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.59
+      value: 10.84
       objectReference: {fileID: 0}
     - target: {fileID: 3752393331138472102, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -283,11 +287,52 @@ PrefabInstance:
       propertyPath: cameraObject
       value: 
       objectReference: {fileID: 1885369107}
-    - target: {fileID: 3752393331138472108, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
-      propertyPath: m_Volume
-      value: 0.03
+    - target: {fileID: 3752393331294887324, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3752393331543489878, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752393331731673893, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094409826751986461, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233796721772115384, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557657162354464647, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Pitch
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557657162354464647, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_Volume
+      value: 0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557657162354464647, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0966e3a90a809cd49b4842a9172c102a, type: 3}
+    - target: {fileID: 5557657162354464647, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211338019243127592, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2928bb3c18dde984ca6f6508d3ecb68f, type: 3}
+    - target: {fileID: 8211338019243127592, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3752393331138472109, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f69bba665ba4a29498d7a63fa2695eb7, type: 3}
 --- !u!4 &635650902 stripped
 Transform:
@@ -781,6 +826,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4533611527456591233, guid: 579a453e3db96d547b3a464c752a3638, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 4533611529314379875, guid: 579a453e3db96d547b3a464c752a3638, type: 3}
       propertyPath: m_Name
       value: Camera Env
